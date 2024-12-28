@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Banner = () => {
-    console.log(import.meta.env.VITE_apikey); 
+    // console.log(import.meta.env.VITE_apikey); 
     return (
         <div className="carousel w-full">
             <div id="slide1" className="carousel-item relative w-full">
