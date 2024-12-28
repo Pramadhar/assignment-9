@@ -8,7 +8,7 @@ const Details = () => {
         return <div>Details not found. Please check the URL or try again later.</div>;
     }
     const { image, adventureTitle, adventureLevel } = detail;
-    console.log(detail)
+    // console.log(detail)
 
     const currentTime = new Date()
     const currentHour = currentTime.getHours()

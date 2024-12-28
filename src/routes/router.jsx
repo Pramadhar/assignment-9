@@ -44,7 +44,7 @@ export const router = createBrowserRouter([
                 loader: async ({ params }) => {
                     const res = await fetch("/ocean.json")
                     const data = await res.json()
-                    console.log(data ,params.id)
+                    // console.log(data ,params.id)
                     const singleData = data.find(d => d.id === parseInt( params.id))
                     return singleData;
                 }
