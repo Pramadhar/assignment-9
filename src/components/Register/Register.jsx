@@ -9,8 +9,6 @@ const Register = () => {
     const handlerRegister = e=> {
         e.preventDefault()
        
-        // const name =form.name?.value;
-       
         // const imageurl = form.imageurl?.value;
         // const email = form.email?.value;
         // const password = form.password?.value;
