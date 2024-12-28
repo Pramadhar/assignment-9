@@ -8,8 +8,7 @@ const Register = () => {
     const navigate = useNavigate()
     const handlerRegister = e=> {
         e.preventDefault()
-        // const email = form.email?.value;
-        // const password = form.password?.value;
+        
         // console.log(name, imageurl, email, password);
         const form = new FormData(e.target)
         const name = form.get("name")
