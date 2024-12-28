@@ -7,7 +7,7 @@ const Login = () => {
     const contextValue = useContext(AuthContext)
     const [error,setError] = useState('')
     const {signIn,googleSignIn,signout} = contextValue
-    console.log(contextValue)
+    // console.log(contextValue)
     const handlerLogin = e => {
         e.preventDefault ()
         const form = new FormData(e.target)
@@ -15,15 +15,15 @@ const Login = () => {
         // const password =e.password.target.value
         const email = form.get("email")
         const password = form.get("password")
-     console.log(email,password)
+    //  console.log(email,password)
      signIn(email,password)
      .then(res => {
-        console.log('Logged in successfully:', res.user);
+        // console.log('Logged in successfully:', res.user);
         navigate('/')
         setError("")
     })
     .catch(err => {
-        console.log('Error logging in:', err.message);
+        // console.log('Error logging in:', err.message);
         setError(err.message)
     });
     }

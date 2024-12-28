@@ -8,7 +8,7 @@ const Register = () => {
     const navigate = useNavigate()
     const handlerRegister = e=> {
         e.preventDefault()
-        // const form= e.target;
+       
         // const name =form.name?.value;
        
         // const imageurl = form.imageurl?.value;
@@ -32,11 +32,11 @@ const Register = () => {
           setError("Password must contain at least one uppercase letter");
           return;
         }
-        console.log(name,image,email,password)
+        // console.log(name,image,email,password)
         registerLogin(email,password)
 
  .then(res => {
-    console.log(res.user)
+    // console.log(res.user)
     manageProfile({displayName : name ,photoURL: image})
     .then(()=> {
 navigate('/')
