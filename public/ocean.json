@@ -1,0 +1,103 @@
+[
+    {
+      "id": 1,
+      "adventureTitle": "Coral Reef Snorkeling Adventure",
+      "image": "https://i.ibb.co.com/Rjnwv1Z/ocene.jpg",
+      "categoryName": "Snorkeling",
+      "shortDescription": "Dive into crystal-clear waters and explore vibrant coral reefs.",
+      "adventureCost": 80,
+      "bookingAvailability": true,
+      "location": "Great Barrier Reef, Australia",
+      "duration": "4 Hours",
+      "adventureLevel": "Beginner",
+      "includedItems": ["Snorkeling Gear", "Guided Tour", "Refreshments"],
+      "ecoFriendlyFeatures": ["Eco-Friendly Sunscreen Provided", "Marine-Safe Practices", "Local Guide Support"],
+      "maxGroupSize": 12,
+      "specialInstructions": [
+        "Apply provided eco-friendly sunscreen",
+        "Follow the guide's instructions to avoid disturbing marine life",
+        "Bring a towel and swimsuit"
+      ]
+    },
+    {
+      "id": 2,
+      "adventureTitle": "Deep Ocean Diving Experience",
+      "image": "https://i.ibb.co.com/99J2Gwm/sea.jpg",
+      "categoryName": "Diving",
+      "shortDescription": "Discover the underwater wonders of the ocean with professional divers.",
+      "adventureCost": 200,
+      "bookingAvailability": true,
+      "location": "Maldives",
+      "duration": "1 Day",
+      "adventureLevel": "Intermediate",
+      "includedItems": ["Diving Equipment", "Professional Guide", "Underwater Photos"],
+      "ecoFriendlyFeatures": ["Marine Life Protection Practices", "Eco-Friendly Diving Gear", "Support for Coral Reef Restoration"],
+      "maxGroupSize": 6,
+      "specialInstructions": [
+        "Carry a certified diving license (if required)",
+        "Avoid touching or disturbing marine life",
+        "Follow safety guidelines provided by the instructor"
+      ]
+    },
+    {
+      "id": 3,
+      "adventureTitle": "Mangrove Kayaking & Coastal Exploration",
+      "image": "https://i.ibb.co.com/xg9ztT7/images-4.jpg",
+      "categoryName": "Kayaking",
+      "shortDescription": "Paddle through serene mangrove forests and learn about coastal ecosystems.",
+      "adventureCost": 60,
+      "bookingAvailability": true,
+      "location": "Sundarbans, India",
+      "duration": "5 Hours",
+      "adventureLevel": "Beginner",
+      "includedItems": ["Kayak", "Life Jacket", "Snack Pack"],
+      "ecoFriendlyFeatures": ["Mangrove Conservation Awareness", "Zero-Waste Meals", "Local Community Support"],
+      "maxGroupSize": 8,
+      "specialInstructions": [
+        "Wear quick-dry clothing",
+        "Carry a reusable water bottle",
+        "Do not disturb mangrove roots"
+      ]
+    },
+    {
+      "id": 4,
+      "adventureTitle": "Eco-Friendly Whale Watching Tour",
+      "image": "https://i.ibb.co.com/99J2Gwm/sea.jpg",
+      "categoryName": "Wildlife",
+      "shortDescription": "Experience the majestic beauty of whales in their natural habitat.",
+      "adventureCost": 100,
+      "bookingAvailability": true,
+      "location": "Monterey Bay, USA",
+      "duration": "3 Hours",
+      "adventureLevel": "Beginner",
+      "includedItems": ["Binoculars", "Expert Guide", "Educational Brochure"],
+      "ecoFriendlyFeatures": ["Boat with Low-Emission Engines", "Wildlife Interaction Guidelines", "Plastic-Free Tour Policies"],
+      "maxGroupSize": 15,
+      "specialInstructions": [
+        "Dress warmly and bring a windbreaker",
+        "Avoid loud noises to respect marine life",
+        "Dispose of waste in designated bins"
+      ]
+    },
+    {
+      "id": 5,
+      "adventureTitle": "Underwater Coral Gardening",
+      "image": "https://i.ibb.co.com/xg9ztT7/images-4.jpg",
+      "categoryName": "Volunteering",
+      "shortDescription": "Join efforts to restore coral reefs through guided underwater activities.",
+      "adventureCost": 120,
+      "bookingAvailability": true,
+      "location": "Bali, Indonesia",
+      "duration": "2 Days",
+      "adventureLevel": "Intermediate",
+      "includedItems": ["Coral Restoration Training", "Diving Gear", "Meals"],
+      "ecoFriendlyFeatures": ["Support for Coral Growth", "Educational Workshops", "Reusable Equipment"],
+      "maxGroupSize": 10,
+      "specialInstructions": [
+        "Participate in training before diving",
+        "Ensure you are comfortable with diving basics",
+        "Follow all conservation protocols"
+      ]
+    }
+  ]
+  
